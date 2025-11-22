@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  /* Re-defining the custom colors from your old config */
+  --color-primary: #0070f3;
+  
+  --color-destructive: #ef4444;
+  --color-destructive-foreground: #ffffff;
+  
+  --color-success: #10b981;
+  --color-success-foreground: #ffffff;
+  
+  --color-warning: #f59e0b;
+  --color-warning-foreground: #000000;
+  
+  --color-sidebar: #1e293b;
+  --color-sidebar-foreground: #f1f5f9;
+  --color-sidebar-accent: #334155;
+  --color-sidebar-accent-foreground: #f1f5f9;
+  --color-sidebar-primary: #6366f1;
+  --color-sidebar-primary-foreground: #ffffff;
+  --color-sidebar-border: #475569;
+}
+
+/* Optional: Reset body to match your dark theme preference */
+body {
+  background-color: var(--color-sidebar);
+  color: var(--color-sidebar-foreground);
+}
